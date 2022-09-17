@@ -24,7 +24,7 @@ export const filterAdminCarsReducer = (state = initialAvailableCarsState, action
 
             case "adminDeletedCar": 
             return {
-                availableCarsList : action.payload,
+                adminAvailableCarsList : action.payload,
                 error : ""
             }
 
