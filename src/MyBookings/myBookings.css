@@ -1,0 +1,83 @@
+.myBookingsWrapper{
+    display : grid;
+    grid-template-rows: max-content 1fr;
+    min-height: calc(100vh - 107px);
+    justify-content: center;
+    padding : 16px;
+    background: linear-gradient(45deg, cadetblue, transparent);
+}
+
+.myBookingsWrapper h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.bookingDetailsContainer{
+    display : grid;
+    align-items: center;
+    justify-content: center;
+    gap : 24px;
+}
+
+
+.bookingCardEnclosure{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    gap : 40px;
+    padding : 16px 32px;
+    box-shadow: 5px 5px 8px grey;
+    background: cadetblue;
+    color: #fff;
+}
+
+.carImageEnclosure img{
+    width : 300px;
+    height : 200px;
+    object-fit: contain;
+}
+
+.carDetailsEnclosure{
+    display : grid;
+}
+
+.bookingDetailsEnclosure{
+    display : grid;
+}
+
+.carDetailsEnclosure .carName{
+    padding : 0 !important;
+    font-weight: bold;
+    font-size: larger;
+    color: gold;
+}
+
+.location{
+    text-transform: capitalize;
+}
+
+.carDetailsEnclosure span,
+.bookingDetailsEnclosure span{
+    font-weight: 700;
+    color: beige;
+}
+
+.totalHours,
+.rentPerHour,
+.isDriverRequired,
+.totalFare,
+.fromDate,
+.toDate,
+.location,
+.transactionId,
+.dateOfBooking {
+    display: flex;
+    justify-content: space-between;
+}
+
+.isDriverRequired {
+    gap: 30px;
+}
+
+.transactionId {
+    gap: 40px;
+}

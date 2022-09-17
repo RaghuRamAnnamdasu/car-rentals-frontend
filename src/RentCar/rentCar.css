@@ -1,0 +1,136 @@
+.rentalCarWrapper {
+    padding: 30px;
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 40px;
+}
+
+.bookingDetailsWrapper {
+    display: flex;
+    gap: 30px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 6px, rgb(0 0 0 / 12%) 0px 1px 4px;
+    height: max-content;
+    padding-right: 20px;
+}
+
+.imageWrapper img {
+    width: 350px;
+}
+
+
+.bookingDetails {
+    grid-template-rows: repeat(5, max-content);
+    display: grid;
+    gap: 20px;
+}
+
+.carName {
+    padding-left: 16px;
+}
+
+.bookingDetailsText:before,
+.bookingDetailsText:after {
+  background-color: cadetblue;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.bookingDetailsText:before {
+  margin-right: 0.5em;
+}
+
+.bookingDetailsText:after {
+  margin-left: 0.5em;
+}
+
+.bookedTimings {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.bookedTo {
+    background-color: cornflowerblue;
+    padding: 3px 4px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.totalHoursBooked {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.selectedLocation,
+.changePlan {
+    text-align: center;
+}
+
+.selectedLocation{
+    text-transform: capitalize;
+}
+
+.fareDetailsWrapper,
+.importantPoints {
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 6px, rgb(0 0 0 / 12%) 0px 1px 4px;
+    padding: 30px;
+}
+
+.importantPoints {
+    margin-top: 30px;
+    display: grid;
+    gap: 20px;
+}
+
+
+.fareDetailsWrapper h2,
+.importantPoints h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.costEstimatorWrapper {
+    display: grid;
+    gap: 20px;
+}
+
+.fareDetailsWrapper .cost,
+.fareDetailsWrapper .hoursCost,
+.fareDetailsWrapper .totalCost,
+.fareDetailsWrapper .tollsParking,
+.fareDetailsWrapper .fuel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.idVerification,
+.preHandOverInspection  {
+    grid-template-columns: 40% 60%;
+    display: grid;
+    word-break: break-word;
+    justify-content: start;
+    /* max-width: 500px; */
+}
+
+.fareDetailsWrapper .totalCost {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 8px 0;
+    margin: 20px 0;
+}
+
+.driverDetailsEnclosure .MuiCheckbox-root {
+    padding: 0 !important;
+}
+
+.changePlan{
+    cursor : pointer;
+    color: cornflowerblue;
+}
+

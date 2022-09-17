@@ -1,0 +1,82 @@
+.homeWrapper {
+    background-image: url("../../public/assets/carBg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 105px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 40px 0 40px;
+}
+
+.homeWrapper h1 {
+    color: #fff;
+}
+
+.carSearchWrapper {
+    padding: 20px;
+}
+
+.carSearchWrapper {
+    width: 500px;
+    align-self: center;
+    justify-self: right;
+}
+
+.dateWrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.dateAndTimePickerWrapper label {
+    color: blue !important;
+    font-size: 17px !important;
+}
+
+.dateAndTimePickerWrapper input {
+    color: indigo !important;
+}
+
+.dateAndTimePickerWrapper path {
+    fill: darkturquoise !important;
+}
+
+.dateAndTimePickerWrapper .MuiOutlinedInput-notchedOutline {
+    border: 2px solid darkturquoise !important;
+}
+
+.carSearchWrapperContent {
+    display: grid;
+    gap: 20px;
+}
+
+.handleSearchCars {
+    background-color: #27ae90 !important;
+}
+
+.locationSelectorWrapper{
+    display: grid;
+    gap: 6px;
+}
+
+.locationSelectorWrapper label{
+    color: blue !important;
+    font-size: 13px !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+}
+
+.locationSelectTag{
+    height: 56px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    border: 2px solid darkturquoise !important;
+    padding: 0 8px;
+    color: indigo !important;
+}
+
+.errorWrapper {
+    color: red;
+}

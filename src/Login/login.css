@@ -1,0 +1,136 @@
+.login,
+.signup {
+    margin-top: 30px;
+ }
+
+ .signup {
+    height: calc(100vh - 75px);
+    background-image: url('https://www.smilecars.net/assets/img/preview/slider/car.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 60px;
+    align-content: center;
+    justify-content: start;
+    margin-top: 0;
+ }
+ 
+ .login {
+    height: calc(100vh - 75px);
+    background-image: url('../../public/assets/loginCover1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    justify-content: start;
+    margin-top: 0;
+    padding: 0 50px;
+ }
+
+ .loginContent,
+ .signupContent {
+     width: 300px;
+     box-shadow: 0 0 10px 0 #ccc;
+     display: grid;
+     align-items: center;
+     gap: 16px;
+     margin: auto;
+     padding: 32px 24px;
+     margin-top: 20px;
+     background: white;
+ }
+
+ .signupContent {
+    margin-left: 60px;
+    box-shadow: none;
+ }
+
+ .rentText {
+    font-size: 40px;
+    color: white;
+    display: grid;
+    grid-template-rows: max-content max-content;
+    justify-items: center;
+    align-content: center;
+    font-weight: 400;
+    margin-right: 60px;
+ }
+
+ .rentText p {
+    font-size: 20px;
+    text-align: center;
+ }
+ 
+ .login .iconWrapper,
+ .signup .iconWrapper {
+     display: flex;
+     color: #000;
+     justify-content: center;
+ }
+ 
+ .iconWrapper img{
+     height: 50px;
+     width: 50px;
+ }
+ 
+ .userNameWrapper,
+ .passwordWrapper,
+ .displayNameWrapper {
+     display: grid;
+ }
+ 
+ .userNameWrapper input,
+ .passwordWrapper input,
+ .displayNameWrapper input {
+     height: 32px;
+     margin-top: 8px;
+ }
+ 
+ .noAccount,
+ .accountExists,
+ .forgotPasswordLink {
+     font-size: 14px;
+     justify-content: center;
+     display: flex;
+ }
+ 
+ .noAccount span,
+ .accountExists span,
+ .forgotPasswordLink span {
+     color: dodgerblue;
+     cursor: pointer;
+ }
+ 
+ .login button,
+ .signup button{
+     text-transform: capitalize;
+ }
+
+ .login button,
+ .signup button {
+    background: #27ae90;
+ }
+ 
+
+ .signup button:hover,
+ .login button:hover {
+    background: seagreen;
+ }
+ 
+ .emailError,
+ .passwordError {
+     color: firebrick;
+     font-size: 13px;
+ }
+ 
+ .redBorderInput {
+     border: 1px solid firebrick;
+ }
+
+ .invalidErrorMessage {
+    color: firebrick;
+ }

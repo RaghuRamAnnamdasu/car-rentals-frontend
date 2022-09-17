@@ -1,0 +1,56 @@
+.addcarWrapper,
+.editcarWrapper{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+}
+
+.addCarHeading,
+.editCarHeading{
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    margin: 8px 0;
+}
+
+.addCarWrapper form,
+.editCarWrapper form{
+    display: grid;
+    gap: 16px;
+    padding: 16px 250px 16px 50px;
+}
+
+.addCarWrapper form div,
+.editCarWrapper form div{
+    display :flex;
+}
+
+.label{
+    min-width: 200px;
+    font-size: 1rem !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    align-self: center;
+}
+
+.input{
+    width: -webkit-fill-available;
+    height: 56px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    border: 2px solid darkturquoise !important;
+    padding: 0 8px;
+    color: indigo !important;
+}
+
+.errorWrapper {
+    color: red;
+}
+
+.addCarButton,
+.editCarButton{
+    width : fit-content;
+    justify-self: center ;
+}
