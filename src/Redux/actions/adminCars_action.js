@@ -78,7 +78,7 @@ export const adminEditCar = (carObject,setOpen) => {
 
 export const updateCarDetails = (carDetails, value, key) => {
     return {
-        type : "adminUpdatedCarDetails", 
+        type : "Car_Details", 
         payload : {...carDetails, [key]: value}
     };
 }
